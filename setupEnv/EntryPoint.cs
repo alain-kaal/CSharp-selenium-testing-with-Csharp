@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Threading;
+//using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-class EntryPoint
+class EntryPoint : Tests
 {
-    IWebDriver driver;
+    
+    private IWebElement element;
 
     public EntryPoint()
     {
-        driver = new ChromeDriver();
+        
     }
 
     static void Main()
@@ -20,30 +21,32 @@ class EntryPoint
 
     }
 
-    private void NameAttributCheck() {
+    public void NameAttributCheck() {
         String nameUrl = "http://testing.todvachev.com/selectors/name/";
-        //IWebDriver driver = new ChromeDriver();
         driver.Navigate().GoToUrl(nameUrl);
-        IWebElement element = driver.FindElement(By.Name("myName"));
+        element = driver.FindElement(By.Name("myName"));
+
+        isElementDisplay();
+
+        sortie();
+    }
+
+    public void isElementDisplay() {
         if (element.Displayed)
         {
-            Console.WriteLine("Okay gut Okay !!!");
+            greenMessage("Okay gut Okay !!!");
         }
         else
         {
-            Console.WriteLine("Bad - Mauvais !!");
+            redMessage("Bad - Mauvais !!");
         }
-
-        Thread.Sleep(3000);
-        driver.Quit();
     }
 
-    private void basicTest()
+    public void basicTest()
     {
         IWebDriver driver = new ChromeDriver();
         driver.Navigate().GoToUrl("http://testing.todvachev.com/");
-        Thread.Sleep(3000);
-        driver.Quit();
+        sortie();
     }
 }
 
