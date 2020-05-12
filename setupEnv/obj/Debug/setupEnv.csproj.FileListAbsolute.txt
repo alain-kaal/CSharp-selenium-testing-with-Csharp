@@ -1,0 +1,12 @@
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\setupEnv.exe.config
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\setupEnv.exe
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\setupEnv.pdb
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\WebDriver.dll
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\WebDriver.Support.dll
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\WebDriver.xml
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\bin\Debug\WebDriver.Support.xml
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\obj\Debug\setupEnv.csprojAssemblyReference.cache
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\obj\Debug\setupEnv.csproj.CoreCompileInputs.cache
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\obj\Debug\setupEnv.csproj.CopyComplete
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\obj\Debug\setupEnv.exe
+D:\www\Udemy\TOOLS\testing\tod-vachev\setupEnv\setupEnv\obj\Debug\setupEnv.pdb
