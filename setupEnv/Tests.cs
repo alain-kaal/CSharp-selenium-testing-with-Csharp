@@ -24,9 +24,15 @@ class Tests
         Console.ForegroundColor = ConsoleColor.White;
     }
 
+    public void basicTest()
+    {
+        driver.Navigate().GoToUrl("http://testing.todvachev.com/");
+        sortie();
+    }
+
     public void sortie()
     {
-        Thread.Sleep(1000);
+        Thread.Sleep(3000);
         driver.Quit();
     }
 }
